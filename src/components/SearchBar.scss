@@ -1,0 +1,23 @@
+
+.search-box{
+    position: relative;
+.fa-magnifying-glass{
+    position: absolute;
+    top: 6px;
+    left: 10px;    
+    color: #a39d9d;
+}
+.search-bar{
+    height: 30px;
+    width: 300px;
+    padding: 10px;
+    padding-left: 30px;
+    font-size: 14px;
+    border: 1px solid #a39d9d;
+    &:focus{
+        outline: none;
+        color: #a39d9d;
+        font-size: 14px;
+    }
+}
+}
