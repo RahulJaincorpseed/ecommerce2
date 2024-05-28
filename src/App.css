@@ -8,9 +8,23 @@ body{
   behavior: smooth;
 }
 
+.big-heading{
+  color: #3e4152;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.center-all{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .cm-padding{
   padding-top: 40px;
   padding-bottom: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 
