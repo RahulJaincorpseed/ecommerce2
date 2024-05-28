@@ -11,10 +11,27 @@
     }
     .card-data{
         padding: 5px 10px;
+        color: #3e4152;
         .product-name{
             font-size: 18px;
             font-weight: 500;
-            color: #3e4152;
+            margin: 0px;
+        }
+        .product-desc{
+            font-weight: 300;
+            font-size: 16px;
+            margin: 0px;
+        }
+        .product-price{
+            .price{
+                font-size: 14px;
+                font-weight: 500;
+            }
+            .old-price{
+                text-decoration: line-through;
+                margin-left: 20px;
+                font-weight: 200;
+            }
         }
     }
 }
